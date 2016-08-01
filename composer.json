@@ -1,0 +1,20 @@
+{
+    "name": "surrealcristian/bench-php",
+    "description": "Small class to profile code.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Cabrera",
+            "email": "surrealcristian@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "SurrealCristian\\": "src/"
+        }
+    }
+}
